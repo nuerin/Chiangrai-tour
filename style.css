@@ -37,7 +37,17 @@
 .santi-lead{max-width:840px;margin:0 auto;text-align:center}.santi-lead p{font-size:17px;color:#5b645c}.santi-quote{padding:42px;border-left:4px solid var(--gold);background:#edf0e9;font-size:clamp(19px,2.5vw,27px);font-family:Georgia,serif;color:var(--forest)}.santi-feature-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.santi-feature-grid article{background:#fff;border:1px solid var(--line);padding:28px;border-radius:12px}.santi-feature-grid h3{color:var(--forest);margin-top:0}.santi-feature-grid p{color:var(--muted)}.santi-gallery{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:14px}.santi-gallery img{height:230px;border-radius:10px}.santi-table{width:100%;border-collapse:collapse;background:white}.santi-table th,.santi-table td{text-align:left;padding:17px;border-bottom:1px solid var(--line)}.santi-table th{width:30%;color:var(--forest);background:#f1f3ee}.santi-note{font-size:12px;color:#777;margin:12px 0}.santi-hero{background:linear-gradient(90deg,#09251cdb,#0c251b55),url('https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=1800&q=85') center/cover;padding:110px 0;color:#fff}.santi-hero h1{font-size:clamp(38px,5vw,68px);line-height:1.18;max-width:800px;margin:15px 0}.santi-hero p{font-size:18px;max-width:640px;color:#e3ebe5}.santi-hero .eyebrow{color:#e4c880}@media(max-width:760px){.santi-feature-grid,.santi-gallery{grid-template-columns:1fr}.santi-gallery img{height:240px}.santi-hero{padding:75px 0}.santi-table th{width:38%}}
 
 /* Waterford premium detail */
-.waterford-hero{background:linear-gradient(90deg,#09251ce8,#0c251b65),url('https://images.unsplash.com/photo-1510674485131-dc88d96369b4?auto=format&fit=crop&w=1800&q=85') center/cover;padding:110px 0;color:#fff}
+
+.waterford-hero {
+  background:
+    linear-gradient(90deg, #09251ce8, #0c251b65),
+    url('https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=1800&q=85')
+    center/cover;
+
+  padding: 110px 0;
+  color: #fff;
+}
+
 .waterford-hero h1{font-size:clamp(36px,5vw,66px);line-height:1.2;margin:18px 0;max-width:830px}
 .waterford-hero p{font-size:18px;color:#e3ebe5;max-width:630px;margin-bottom:30px}
 .waterford-stats{grid-template-columns:repeat(4,minmax(0,1fr));max-width:850px;margin:32px auto 10px}
@@ -48,5 +58,80 @@
 /* Expanded editorial sections */
 .editorial-intro{max-width:870px;margin:0 auto;text-align:center;font-size:17px;color:#4e5b51}.editorial-intro h2{color:var(--forest);font-size:clamp(26px,3vw,38px)}.editorial-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}.editorial-card{background:white;padding:28px;border:1px solid var(--line);border-radius:12px}.editorial-card h3{color:var(--forest);margin-top:4px}.editorial-card p{color:#606b61}.route-step{display:grid;grid-template-columns:90px 1fr;gap:18px;border-bottom:1px solid var(--line);padding:23px 0}.route-step strong{color:#927331}.route-step h3{margin:0 0 6px;color:var(--forest)}.route-step p{margin:0;color:#59635a}.small-note{font-size:13px;color:#677067}.package-ribbon{background:#f0ebdc;padding:26px;border-radius:12px;border-left:5px solid var(--gold)}.section-photo{width:100%;max-height:420px;object-fit:cover;border-radius:12px}.editorial-kicker{font-size:12px;letter-spacing:2px;font-weight:800;color:#a0803b}.link-row{display:flex;flex-wrap:wrap;gap:12px;margin-top:22px}@media(max-width:800px){.editorial-grid{grid-template-columns:1fr}.route-step{grid-template-columns:70px 1fr}}
 
-/* 현장 사진 앨범: 파일만 추가하면 자동 표시 */
-.photo-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.photo-item{margin:0;background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden}.photo-item img{height:215px;width:100%;object-fit:cover}.photo-item figcaption{padding:12px 16px;font-weight:700;color:var(--forest)}.photo-placeholder{height:215px;display:flex;flex-direction:column;align-items:center;justify-content:center;background:#e9eee8;color:#6d786f;text-align:center}.photo-placeholder small{font-size:11px;overflow-wrap:anywhere;padding:4px}.photo-item.has-photo .photo-placeholder{display:none}.santi-hero{background-image:linear-gradient(90deg,#09251cdb,#0c251b55),url('images/santiburi/hero.jpg')}.waterford-hero{background-image:linear-gradient(90deg,#09251ce8,#0c251b65),url('images/waterford/hero.jpg')}@media(max-width:850px){.photo-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:520px){.photo-grid{grid-template-columns:1fr}}
+/* International school and golf pathway */
+.school-hero{background:linear-gradient(90deg,rgba(12,39,27,.97),rgba(15,51,36,.87));color:#fff;padding:105px 0 110px}
+.school-hero h1{font-size:clamp(32px,4.7vw,60px);line-height:1.23;margin:18px 0 22px;max-width:920px}
+.school-hero p{font-size:18px;color:#dce7de;max-width:750px}
+.school-card ul{padding-left:20px;color:#4c5c51;line-height:1.8}
+.school-card .link-row{margin-top:25px}
+.school-photo-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.school-photo-grid figure{margin:0}
+.school-photo-grid img,.school-photo-empty{width:100%;height:240px;object-fit:cover;border-radius:10px}
+.school-photo-empty{display:flex;align-items:center;justify-content:center;background:#e5eae4;color:#526455;font-size:14px}
+.school-photo-empty[hidden]{display:none}
+.school-photo-grid figcaption{font-size:13px;color:#5e6b62;margin-top:8px}
+@media(max-width:750px){.school-photo-grid{grid-template-columns:1fr}.school-hero{padding:72px 0}.school-hero p{font-size:16px}}
+/* Six menu items centered while preserving brand on wide screens */
+@media(min-width:1151px){.header-inner.centered-header{padding-left:165px;padding-right:165px}.centered-header .nav-menu{gap:clamp(8px,1vw,18px)}.centered-header .nav-menu>a,.centered-header .nav-dropdown-toggle{font-size:13px}}
+
+/* Golf course swipe gallery (no labels, no captions) */
+.golf-carousel{max-width:100%;margin-top:24px}
+.golf-carousel-track{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scroll-behavior:smooth;gap:0;scrollbar-width:none;border-radius:16px;background:#e9eee8}
+.golf-carousel-track::-webkit-scrollbar{display:none}
+.golf-carousel-slide{flex:0 0 100%;min-width:0;scroll-snap-align:start}
+.golf-carousel-slide img{display:block;width:100%;height:clamp(260px,46vw,610px);object-fit:contain;background:#142c22}
+.golf-carousel-controls{display:none;justify-content:center;align-items:center;gap:24px;margin-top:18px}
+.golf-carousel.has-images .golf-carousel-controls{display:flex}
+.golf-carousel-controls button{width:44px;height:44px;border-radius:50%;border:1px solid #b8c4b9;background:white;color:#183a29;font-size:20px;cursor:pointer}
+.golf-carousel-controls button:disabled{opacity:.35;cursor:default}
+.golf-carousel-count{font-size:14px;font-weight:700;color:#375142;min-width:65px;text-align:center}
+.golf-carousel-empty{text-align:center;background:#e9eee8;color:#68786c;padding:65px 20px;border-radius:12px}
+@media(max-width:600px){.golf-carousel-slide img{height:300px}.golf-carousel-controls{gap:18px}}
+
+/* Academy: consistent section headings */
+.academy-consistent-heading h2 {
+  color: #111111 !important;
+  font-family: 'Pretendard', 'Noto Sans KR', 'Malgun Gothic', sans-serif !important;
+  font-size: clamp(26px, 3vw, 36px) !important;
+  font-weight: 700 !important;
+  line-height: 1.35 !important;
+  margin: 10px 0 !important;
+  letter-spacing: normal !important;
+}
+
+/* 카카오톡 상담 고정 버튼 */
+.kakao-floating {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 9999;
+
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  padding: 14px 20px;
+  background: #FEE500;
+  color: #191919;
+
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 700;
+
+  box-shadow: 0 5px 18px rgba(0,0,0,0.18);
+  transition: transform 0.2s;
+}
+
+.kakao-floating:hover {
+  transform: translateY(-3px);
+}
+
+@media (max-width: 600px) {
+  .kakao-floating {
+    right: 14px;
+    bottom: 18px;
+    padding: 12px 16px;
+    font-size: 13px;
+  }
+}

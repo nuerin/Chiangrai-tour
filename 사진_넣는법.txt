@@ -1,10 +1,12 @@
-사진 적용 방법
-1. images/stay 폴더에 숙소 사진을 아래 이름으로 넣으세요.
- stay-exterior-01.jpg, stay-room-01.jpg, stay-room-02.jpg, stay-pool-01.jpg, stay-sports-01.jpg, stay-restaurant-01.jpg, stay-food-01.jpg, stay-food-02.jpg
-2. images/santiburi 와 images/waterford 각각에 아래 이름으로 넣으세요.
- hero.jpg (상단 배경), fairway-01.jpg, green-01.jpg, course-01.jpg, clubhouse-01.jpg, facility-01.jpg, restaurant-01.jpg
-3. 사진이 없는 칸은 '사진 준비 중'으로 보입니다.
-4. 실제 PNG/WEBP 파일은 이름만 JPG로 바꾸지 마세요. JPG로 변환하거나 HTML/CSS 경로 확장자를 변경하세요.
-5. 이미지 파일명은 대소문자까지 정확히 일치해야 합니다.
-6. 공개 시 사진 사용권, 촬영지, 시설 운영 여부를 확인하세요.
-7. index.html 메인 배경은 기존 참고 사진입니다. 메인 사진 교체 시 style.css의 .hero 배경 URL도 바꿔주세요.
+사진 표시 안내 (2026-11 수정)
+
+1. HTML 파일과 images 폴더가 같은 위치에 있어야 합니다.
+2. 싼티부리: images/santiburi/gallery-01.jpg, gallery-02.jpg ...
+3. 워터포드: images/waterford/gallery-01.jpg, gallery-02.jpg ...
+4. 확장자 jpg, jpeg, png, webp 지원. 실제 사진 형식과 일치해야 합니다.
+5. 01번 사진부터 순서대로, 중간 번호 없이 저장하세요. 최대 20장.
+6. 한 달 살기: images/stay/stay-exterior-01.jpg, stay-room-01.jpg, stay-room-02.jpg, stay-pool-01.jpg, stay-sports-01.jpg, stay-restaurant-01.jpg, stay-food-01.jpg, stay-food-02.jpg
+   한 달 살기 사진은 JPG 파일명 그대로 사용합니다.
+7. 압축을 푼 뒤 실제 사진을 폴더에 넣고 index.html을 여세요. ZIP 파일 안에서 바로 HTML을 열면 사진 경로가 깨질 수 있습니다.
+8. 사진이 안 나오면 파일명이 gallery-01.jpg.jpg 처럼 이중 확장자가 아닌지, 폴더명이 맞는지 확인하세요.
+9. 국제학교·골프유학 페이지에는 사진 갤러리를 추가하지 않았습니다.

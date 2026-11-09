@@ -1,11 +1,11 @@
-// 운영 전 실제 수신 이메일로 변경하세요. 예: booking@yourdomain.com
-const CONTACT_EMAIL = 'YOUR_EMAIL@example.com';
+//
+const CONTACT_EMAIL = 'gemi2333@gmail.com';
 const form = document.getElementById('inquiry');
 if (form) {
   form.addEventListener('submit', function(event) {
     event.preventDefault();
     if (CONTACT_EMAIL === 'YOUR_EMAIL@example.com') {
-      alert('아직 상담 수신 이메일이 설정되지 않았습니다. site.js의 CONTACT_EMAIL을 실제 이메일로 변경해 주세요.');
+     
       return;
     }
     const get = id => document.getElementById(id).value.trim();
